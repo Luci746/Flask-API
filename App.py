@@ -8,7 +8,7 @@ App = Flask('__name__')
 @app.route('/Salgadinhos', method=[''])
 def product(self):
     return make_response(
-        jsonify(product)
+        jsonify(Produtos)
     )
 
 
